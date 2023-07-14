@@ -224,11 +224,16 @@ textarea {
   textarea {
     width: 80%;
   }
-  .about {
+  .about,
+  .btn-primary,
+  .banner-title {
     padding: 20px;
   }
   nav {
     margin: 0 10px;
+  }
+  nav li {
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 960px) {
